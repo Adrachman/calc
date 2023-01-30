@@ -72,8 +72,6 @@ public class Main {
                 if (tem.length > 1) {
                     int a = Integer.parseInt(tem[0]);
                     int b = Integer.parseInt(tem[1]);
-                    System.out.println(a);
-                    System.out.println(b);
                     if (a < 4){
                         last = rimNumber[a-1];
                         last += rimNumber[b-1];
